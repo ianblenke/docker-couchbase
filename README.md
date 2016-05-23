@@ -36,8 +36,12 @@ Finally, restart the Docker daemon: `/etc/init.d/docker restart`.
 		# Check health
 		stats
 		# Set and get a key
-		set test_key 0 0 1
+		set test_key 0 0 3
+		foo
+		STORED
 		get test_key
+		foo
+		END
 		# Disconnect
 		quit
 
